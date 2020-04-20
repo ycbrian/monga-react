@@ -1,0 +1,43 @@
+.top_logo {
+    padding: 8px 0 5px 2%;
+    text-align: left;
+    background: #f8f9fa;
+}
+
+.video_container--web-only {
+    margin-bottom: -1rem;
+    object-fit: fill;
+}
+
+.video_container--mobile-only {
+    margin-bottom: -1rem;
+    object-fit: fill;
+}
+
+@media screen and (min-width: 768px) {
+    .top_logo img {
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .top_logo {
+        text-align: left;
+        padding: 4px 0 4px 4%;
+    }
+    .top_logo img {
+        width: 14%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .video_container--mobile-only {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .video_container--web-only {
+        display: none;
+    }
+}
