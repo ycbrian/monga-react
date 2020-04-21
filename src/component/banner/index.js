@@ -8,7 +8,7 @@ const index = () => {
   return (
     <>
       <div className="top_logo">
-        <img src={logo} />
+        <img src={logo} alt="bannerLogo" />
       </div>
       <img
         src={bannerWeb}

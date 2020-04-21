@@ -7,7 +7,6 @@ import Tour from "./page/tour";
 import Orginizer from "./page/orginizer";
 import Hulu from "./page/hulu";
 import Traffic from "./page/traffic";
-import Travel from "./page/travel";
 import Workshop from "./page/workshop";
 import Exhibition from "./page/exhibition";
 
