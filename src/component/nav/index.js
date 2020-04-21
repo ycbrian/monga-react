@@ -44,11 +44,6 @@ const index = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/travel">
-              萬華小旅行
-            </Link>
-          </li>
-          <li className="nav-item">
             <Link className="nav-link" to="/traffic">
               交通資訊
             </Link>

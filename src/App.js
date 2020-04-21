@@ -33,9 +33,6 @@ const App = () => {
         <Route exact path="/organizer">
           <Orginizer />
         </Route>
-        <Route exact path="/travel">
-          <Travel />
-        </Route>
         <Route exact path="/traffic">
           <Traffic />
         </Route>

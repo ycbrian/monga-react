@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../../img/taipei_activity_logo.png";
-import bannerWeb from "../../img/banner.gif";
-import bannerPhone from "../../img/banner_m.gif";
+import bannerWeb from "../../img/banner.jpg";
+import bannerPhone from "../../img/banner_m.jpg";
 import "./style.css";
 
 const index = () => {
