@@ -6,9 +6,9 @@ body {
 /* tour */
 
 /* for content */
-/* .tab_title {
+.tab_title {
     margin-top: 1rem;
-} */
+}
 
 .nav-item .nav-link {
     color: #bcbcbc;
@@ -94,4 +94,21 @@ body {
     .nav_tab_m {
         display: none;
     }
+}
+
+/* index.css */
+@media screen and (min-width: 992px) {
+    .title--mobile-only {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .title--web-only {
+        display: none;
+    }
+}
+
+.p--preline {
+    white-space: pre-line;
 }
