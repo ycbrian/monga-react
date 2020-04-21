@@ -13,7 +13,7 @@ import Footer from "./component/footer";
 
 const App = () => {
   return (
-    <div>
+    <main className="container">
       <Banner />
       <Nav />
       <Switch>
@@ -38,7 +38,7 @@ const App = () => {
         <Redirect to="/" />
       </Switch>
       <Footer />
-    </div>
+    </main>
   );
 };
 
