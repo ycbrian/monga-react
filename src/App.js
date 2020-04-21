@@ -9,11 +9,11 @@ import Hulu from "./page/hulu";
 import Traffic from "./page/traffic";
 import Workshop from "./page/workshop";
 import Exhibition from "./page/exhibition";
+import Footer from "./component/footer";
 
 const App = () => {
   return (
     <div>
-      <div>This is main App</div>
       <Banner />
       <Nav />
       <Switch>
@@ -37,6 +37,7 @@ const App = () => {
         </Route>
         <Redirect to="/" />
       </Switch>
+      <Footer />
     </div>
   );
 };
