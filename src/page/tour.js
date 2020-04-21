@@ -123,8 +123,12 @@ const Tour = () => {
                 </p>
               </Col>
             </Col>
-            <Col className="row">
-              <Col>Card part</Col>
+            <Col lg="12" className="row pr-0">
+              <Col>
+                <ul className="events__list row pl-0" id="events__list_0">
+                  {/* insert data */}
+                </ul>
+              </Col>
             </Col>
           </Row>
           <Row></Row>
@@ -146,8 +150,12 @@ const Tour = () => {
                 </p>
               </Col>
             </Col>
-            <Col className="row">
-              <Col>Card part</Col>
+            <Col lg="12" className="row pr-0">
+              <Col>
+                <ul className="events__list row pl-0" id="events__list_1">
+                  {/* insert data */}
+                </ul>
+              </Col>
             </Col>
           </Row>
           <Row></Row>
@@ -175,8 +183,12 @@ const Tour = () => {
                 </p>
               </Col>
             </Col>
-            <Col className="row">
-              <Col>Card part</Col>
+            <Col lg="12" className="row pr-0">
+              <Col>
+                <ul className="events__list row pl-0" id="events__list_2">
+                  {/* insert data */}
+                </ul>
+              </Col>
             </Col>
           </Row>
           <Row></Row>
