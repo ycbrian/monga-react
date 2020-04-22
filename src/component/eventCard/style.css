@@ -1,0 +1,96 @@
+.events__item-container {
+    margin-bottom: 30px;
+}
+
+.events__item-container .a .a:hover,
+.a:visited,
+.a:link,
+.a:active {
+    color: #4b6fa8;
+    text-decoration: none;
+}
+
+.events__item {
+    width: 100%;
+    border-radius: 4px;
+    border: solid 1px #e3e3e3;
+    border-bottom: none;
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+}
+
+.events__item:hover {
+    box-shadow: 2px 2px 5px #aaaaaa;
+}
+
+.events__item_href {
+    text-decoration: none;
+}
+
+.events__img {
+    max-width: 100%;
+}
+
+.events__content {
+    margin: 20px 20px 24px;
+}
+
+.events__title {
+    color: #1b1b1b;
+    font-size: 20px;
+    overflow: hidden;
+    min-height: 48px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.events__p {
+    color: #929292;
+    margin: auto;
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.events__p:before {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.events__p--time:before {
+    content: url("../../img/time.svg");
+}
+
+.events__p--place:before {
+    content: url("../../img/map_mark.svg");
+}
+
+.events__footer {
+    padding: 0 20px;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.events__organizer {
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+    width: 73%;
+    right: 5%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.events__avatar {
+    border-radius: 100%;
+    margin: 10px 10px 10px 0;
+    vertical-align: middle;
+    width: 13%;
+}

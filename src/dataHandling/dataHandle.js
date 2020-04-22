@@ -22,3 +22,13 @@ export async function getEvent(tagList) {
   const data = await result.json();
   return data;
 }
+
+export function dataProcessing(data, targetList, num) {
+  let eventList = [];
+  for (let item of data) {
+    if (item.tags.includes(targetList[num])) {
+      eventList.push(item);
+    }
+  }
+  return eventList;
+}
