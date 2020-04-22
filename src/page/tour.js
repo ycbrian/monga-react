@@ -23,10 +23,10 @@ const Tour = () => {
     if (activeTab !== tab) setActiveTab(tab);
   };
   return (
-    <div>
+    <>
       <Tab activeTab={activeTab} toggle={toggle} />
       <TabContent activeTab={activeTab} data={data} />
-    </div>
+    </>
   );
 };
 
