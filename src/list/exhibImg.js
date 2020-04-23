@@ -11,41 +11,49 @@ export const items = [
   {
     src: img1,
     altText: "Slide 1",
+    caption: "",
     key: "1",
   },
   {
     src: img2,
     altText: "Slide 2",
+    caption: "",
     key: "2",
   },
   {
     src: img3,
     altText: "Slide 3",
+    caption: "",
     key: "3",
   },
   {
     src: img4,
     altText: "Slide 4",
+    caption: "",
     key: "4",
   },
   {
     src: img5,
     altText: "Slide 5",
+    caption: "",
     key: "5",
   },
   {
     src: img6,
     altText: "Slide 6",
+    caption: "",
     key: "6",
   },
   {
     src: img7,
     altText: "Slide 7",
+    caption: "",
     key: "7",
   },
   {
     src: img8,
     altText: "Slide 8",
+    caption: "",
     key: "8",
   },
 ];

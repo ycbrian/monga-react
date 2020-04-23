@@ -2,18 +2,21 @@ import React, { useState, useEffect } from "react";
 import { TabPane, Row, Col } from "reactstrap";
 import { dataProcessing } from "../../../dataHandling/dataHandle";
 import EventCard from "../../eventCard";
+import Spinner from "../../spinner";
 import "./style.css";
 
 const Index = ({ id, children, title, img, data }) => {
   const [itemList, setItemList] = useState([]);
+
   useEffect(() => {
-    let list;
-    list = dataProcessing(
-      data,
-      ["mongatoureveryday", "mongatourtempo", "mongatourstreet"],
-      id - 1
-    );
-    setItemList(list);
+    if (data) {
+      const list = dataProcessing(
+        data,
+        ["mongatoureveryday", "mongatourtempo", "mongatourstreet"],
+        id - 1
+      );
+      setItemList(list);
+    }
   }, [data, id]);
 
   return (
@@ -29,14 +32,18 @@ const Index = ({ id, children, title, img, data }) => {
         <Col lg="12" className="row pr-0">
           <Col>
             <ul className="events__list row pl-0">
-              {itemList.length ? (
-                itemList.map((item, ind) => {
-                  return <EventCard key={ind} listItem={item} colflex="4" />;
-                })
+              {data ? (
+                itemList.length ? (
+                  itemList.map((item, ind) => {
+                    return <EventCard key={ind} listItem={item} colflex="4" />;
+                  })
+                ) : (
+                  <div className="col-12 mb-2">
+                    <div className="events__none">分類暫無活動</div>
+                  </div>
+                )
               ) : (
-                <div className="col-12 mb-2">
-                  <div className="events__none">分類暫無活動</div>
-                </div>
+                <Spinner />
               )}
             </ul>
           </Col>

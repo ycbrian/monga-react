@@ -6,7 +6,7 @@ import TitleMobile from "../../title/titleMobile";
 
 const index = () => {
   return (
-    <div class="row py-4 mb-4">
+    <div className="row py-4 mb-4">
       <TitleMobile title="來艋舺瞧事情">
         <Carousel items={items} />
         <dl className="row">

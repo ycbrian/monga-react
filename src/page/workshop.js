@@ -5,7 +5,7 @@ import WorkshopHead from "../component/workShop/workShopHead";
 import workShopImg from "../img/workshop/accupass_blog.jpg";
 
 const Workshop = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState(null);
   useEffect(() => {
     async function fetchData() {
       let dataList;

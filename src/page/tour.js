@@ -5,7 +5,7 @@ import { getEvent } from "../dataHandling/dataHandle";
 
 const Tour = () => {
   const [activeTab, setActiveTab] = useState("1");
-  const [data, setData] = useState([]);
+  const [data, setData] = useState(null);
   useEffect(() => {
     async function fetchData() {
       let dataList;
