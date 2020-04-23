@@ -1,7 +1,8 @@
 import React from "react";
+import ExhibContent from "../component/exhibition/exhibContent";
 
 const exhibition = () => {
-  return <div>來艋舺瞧事情</div>;
+  return <ExhibContent />;
 };
 
 export default exhibition;

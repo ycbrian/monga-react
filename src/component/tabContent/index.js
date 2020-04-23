@@ -11,7 +11,6 @@ const index = ({ activeTab, data }) => {
       <TabPane id="1" title="庶民日常" img={tabHeadImg1} data={data}>
         <h4 className="title--web-only">庶民日常</h4>
         <p className="p--preline">
-          <br />
           「來到艋舺，不曉得你是否也覺得老店特別多呢？」
           <br />
           <br />
@@ -24,7 +23,6 @@ const index = ({ activeTab, data }) => {
       <TabPane id="2" title="廟宇信仰" img={tabHeadImg2} data={data}>
         <h4 className="title--web-only">廟宇信仰</h4>
         <p className="p--preline">
-          <br />
           艋舺發展至今已經有300多年的歷史，是台北市最老、也是最能展現台北傳統生活文化的街區之一。
           <br />
           <br />
@@ -34,7 +32,6 @@ const index = ({ activeTab, data }) => {
       <TabPane id="3" title="街友百味" img={tabHeadImg3} data={data}>
         <h4 className="title--web-only">街友百味</h4>
         <p className="p--preline">
-          <br />
           艋舺是社群網絡連結性極強的地區，有著自己人要互相照顧的滿滿的個性。發展至今，作為台北慈善機構的中心已有超過150年以上的歷史，像是台北仁濟院前身的組織，就是在萬華一帶設立。
           <br />
           <br />
