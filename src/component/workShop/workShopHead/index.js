@@ -6,14 +6,14 @@ import TitleWeb from "../../title/titleWeb";
 const index = ({ img }) => {
   return (
     <Row className="py-4 mb-2">
-      <TitleMobile title="艋舺百年職人系列專訪" classname="mb-3">
+      <TitleMobile title="艋舺百年職人系列專訪" classname="mb-3" lg="6">
         <img
           src={img}
           alt="艋舺百年職人系列專訪"
           className="img-fluid float-left mb-3"
         />
       </TitleMobile>
-      <TitleWeb title="艋舺百年職人系列專訪" classname="mb-3">
+      <TitleWeb title="艋舺百年職人系列專訪" classname="mb-3" lg="6">
         <br />
         「一府二路三艋舺」，萬華技藝傳承百年，造就台北府城當年盛世。
         <br />

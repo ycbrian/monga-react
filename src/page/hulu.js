@@ -1,7 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import HuluContent from "../component/hulu/huluContent";
+import { getEvent } from "../dataHandling/dataHandle";
 
-const hulu = () => {
-  return <div>冒險逮丸郎</div>;
+const Hulu = () => {
+  const [data, setData] = useState(null);
+  useEffect(() => {
+    async function fetchData() {
+      let dataList;
+      dataList = await getEvent(["mongahulu"]);
+      setData(dataList);
+    }
+    fetchData();
+  }, []);
+
+  return <HuluContent data={data} />;
 };
 
-export default hulu;
+export default Hulu;

@@ -7,7 +7,7 @@ import TitleMobile from "../../title/titleMobile";
 const index = () => {
   return (
     <div className="row py-4 mb-4">
-      <TitleMobile title="來艋舺瞧事情">
+      <TitleMobile title="來艋舺瞧事情" lg="6">
         <Carousel items={items} />
         <dl className="row">
           <dt className="col-sm-4 dt">展覽名稱：</dt>
@@ -23,7 +23,7 @@ const index = () => {
           </dd>
         </dl>
       </TitleMobile>
-      <TitleWeb title="來艋舺瞧事情">
+      <TitleWeb title="來艋舺瞧事情" lg="6">
         艋舺是台北最初的發源地，自三百年前台北第一筆交易以來，商界菁英大老調度貿易，販夫走卒兢兢業業打拼，成就了一府二鹿三艋舺的萬世風華傳奇。
         <br />
         <br />
