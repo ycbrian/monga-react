@@ -1,0 +1,19 @@
+.nav-linkList .nav-link {
+    padding: 6px 0;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.nav-linkList .nav-link.active,
+.nav-linkList .nav-link:hover {
+    color: #36322e;
+}
+
+@media only screen and (max-width: 991px) {
+    .nav-linkList .nav-link {
+        width: 20vw;
+        font-size: 12px;
+        padding: 10px 0;
+        margin: 0;
+    }
+}

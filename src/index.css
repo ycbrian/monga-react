@@ -20,6 +20,12 @@ body {
     }
 }
 
+/* Global nav */
+.nav-link {
+    color: #bcbcbc;
+    cursor: pointer;
+}
+
 /* Global tab */
 .tab_title {
     margin-top: 1rem;

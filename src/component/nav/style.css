@@ -1,4 +1,18 @@
-.nav-item .nav-link {
-  color: #bcbcbc;
-  cursor: pointer;
+.nav-linkList {
+  margin-top: 16px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  background: #f8f9fa;
+  padding: 0;
+}
+
+@media only screen and (max-width: 991px) {
+  .nav-linkList {
+    justify-content: flex-start;
+  }
+
+  .nav-linkList {
+    overflow-x: scroll;
+  }
 }
