@@ -1,6 +1,7 @@
 import React from "react";
 import { NavItem, NavLink } from "reactstrap";
 import classnames from "classnames";
+import "./style.css";
 
 const index = ({ num, title, activeTab, toggle }) => {
   return (

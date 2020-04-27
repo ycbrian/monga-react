@@ -1,6 +1,7 @@
 import React from "react";
 import TabLink from "./tabLink";
 import { Nav } from "reactstrap";
+import "./style.css";
 
 const index = ({ activeTab, toggle, tabArr }) => {
   return (

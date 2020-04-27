@@ -1,3 +1,4 @@
-.navbar-toggler {
-  margin-left: auto;
+.nav-item .nav-link {
+  color: #bcbcbc;
+  cursor: pointer;
 }

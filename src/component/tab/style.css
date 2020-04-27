@@ -1,0 +1,11 @@
+@media screen and (max-width: 767px) {
+    .nav_tab_l {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav_tab_m {
+        display: none;
+    }
+}

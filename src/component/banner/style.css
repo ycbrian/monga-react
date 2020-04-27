@@ -7,13 +7,7 @@
 .video_container--web-only {
     margin-bottom: -1rem;
     object-fit: fill;
-    max-width: 1080px;
 }
-
-/* .video_container--mobile-only {
-    margin-bottom: -1rem;
-    object-fit: fill;
-} */
 
 @media screen and (min-width: 768px) {
     .top_logo img {
@@ -30,15 +24,3 @@
         width: 14%;
     }
 }
-
-/* @media screen and (min-width: 992px) {
-    .video_container--mobile-only {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .video_container--web-only {
-        display: none;
-    }
-} */

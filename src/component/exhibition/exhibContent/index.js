@@ -3,6 +3,7 @@ import Carousel from "../../carousel";
 import { items } from "../../../list/exhibImg";
 import TitleWeb from "../../title/titleWeb";
 import TitleMobile from "../../title/titleMobile";
+import "./style.css";
 
 const index = () => {
   return (

@@ -1,0 +1,185 @@
+/* tour */
+.tour .override_nav_link .nav_link_0:hover {
+    color: #d25d4f;
+}
+
+.tour .override_nav_link .nav_link_0.active {
+    background-color: #d25d4f;
+    color: white;
+}
+
+.tour .override_nav_link .nav_link_1:hover {
+    color: #37a1d0;
+}
+
+.tour .override_nav_link .nav_link_1.active {
+    background-color: #37a1d0;
+    color: white;
+}
+
+.tour .override_nav_link .nav_link_2:hover {
+    color: #519b92;
+}
+
+.tour .override_nav_link .nav_link_2.active {
+    background-color: #519b92;
+    color: white;
+}
+
+.tour .native_nav_link .nav_link_0.active {
+    color: #d25d4f;
+    border-top-color: #d25d4f;
+    border-left-color: #d25d4f;
+    border-right-color: #d25d4f;
+}
+
+.tour .native_nav_link .nav_link_0:hover {
+    color: #d25d4f;
+    border-top-color: #d25d4f;
+    border-left-color: #d25d4f;
+    border-right-color: #d25d4f;
+}
+
+.tour .native_nav_link .nav_link_1.active {
+    color: #37a1d0;
+    border-top-color: #37a1d0;
+    border-left-color: #37a1d0;
+    border-right-color: #37a1d0;
+}
+
+.tour .native_nav_link .nav_link_1:hover {
+    color: #37a1d0;
+    border-top-color: #37a1d0;
+    border-left-color: #37a1d0;
+    border-right-color: #37a1d0;
+}
+
+.tour .native_nav_link .nav_link_2.active {
+    color: #519b92;
+    border-top-color: #519b92;
+    border-left-color: #519b92;
+    border-right-color: #519b92;
+}
+
+.tour .native_nav_link .nav_link_2:hover {
+    color: #519b92;
+    border-top-color: #519b92;
+    border-left-color: #519b92;
+    border-right-color: #519b92;
+}
+
+/* organizer */
+.organizer .override_nav_link .nav_link_0:hover {
+    color: #e9c067;
+}
+
+.organizer .override_nav_link .nav_link_0.active {
+    background-color: #e9c067;
+    color: white;
+}
+
+.organizer .override_nav_link .nav_link_1:hover {
+    color: #46978d;
+}
+
+.organizer .override_nav_link .nav_link_1.active {
+    background-color: #46978d;
+    color: white;
+}
+
+.organizer .override_nav_link .nav_link_2:hover {
+    color: #e56855;
+}
+
+.organizer .override_nav_link .nav_link_2.active {
+    background-color: #e56855;
+    color: white;
+}
+
+.organizer .override_nav_link .nav_link_3:hover {
+    color: #5d98db;
+}
+
+.organizer .override_nav_link .nav_link_3.active {
+    background-color: #5d98db;
+    color: white;
+}
+
+.organizer .override_nav_link .nav_link_4:hover {
+    color: #774da1;
+}
+
+.organizer .override_nav_link .nav_link_4.active {
+    background-color: #774da1;
+    color: white;
+}
+
+.organizer .native_nav_link .nav_link_0.active {
+    color: #e9c067;
+    border-top-color: #e9c067;
+    border-left-color: #e9c067;
+    border-right-color: #e9c067;
+}
+
+.organizer .native_nav_link .nav_link_0:hover {
+    color: #e9c067;
+    border-top-color: #e9c067;
+    border-left-color: #e9c067;
+    border-right-color: #e9c067;
+}
+
+.organizer .native_nav_link .nav_link_1.active {
+    color: #46978d;
+    border-top-color: #46978d;
+    border-left-color: #46978d;
+    border-right-color: #46978d;
+}
+
+.organizer .native_nav_link .nav_link_1:hover {
+    color: #46978d;
+    border-top-color: #46978d;
+    border-left-color: #46978d;
+    border-right-color: #46978d;
+}
+
+.organizer .native_nav_link .nav_link_2.active {
+    color: #e56855;
+    border-top-color: #e56855;
+    border-left-color: #e56855;
+    border-right-color: #e56855;
+}
+
+.organizer .native_nav_link .nav_link_2:hover {
+    color: #e56855;
+    border-top-color: #e56855;
+    border-left-color: #e56855;
+    border-right-color: #e56855;
+}
+
+.organizer .native_nav_link .nav_link_3.active {
+    color: #5d98db;
+    border-top-color: #5d98db;
+    border-left-color: #5d98db;
+    border-right-color: #5d98db;
+}
+
+.organizer .native_nav_link .nav_link_3:hover {
+    color: #5d98db;
+    border-top-color: #5d98db;
+    border-left-color: #5d98db;
+    border-right-color: #5d98db;
+}
+
+.organizer .native_nav_link .nav_link_4.active {
+    color: #774da1;
+    border-top-color: #774da1;
+    border-left-color: #774da1;
+    border-right-color: #774da1;
+}
+
+.organizer .native_nav_link .nav_link_4:hover {
+    color: #774da1;
+    border-top-color: #774da1;
+    border-left-color: #774da1;
+    border-right-color: #774da1;
+}
