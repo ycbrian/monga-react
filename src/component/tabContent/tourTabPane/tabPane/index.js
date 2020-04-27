@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { TabPane, Row, Col } from "reactstrap";
-import { dataProcessing } from "../../../dataHandling/dataHandle";
-import EventCard from "../../eventCard";
-import Spinner from "../../spinner";
+import { dataProcessing } from "../../../../dataHandling/dataHandle";
+import EventCard from "../../../eventCard";
+import Spinner from "../../../spinner";
 import "./style.css";
 
 const Index = ({ id, children, title, img, data }) => {
@@ -49,7 +49,6 @@ const Index = ({ id, children, title, img, data }) => {
           </Col>
         </Col>
       </Row>
-      <Row></Row>
     </TabPane>
   );
 };

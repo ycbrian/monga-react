@@ -1,9 +1,9 @@
 import React from "react";
 import { TabContent } from "reactstrap";
 import TabPane from "./tabPane";
-import tabHeadImg1 from "../../img/roadmap/tour_everyday.png";
-import tabHeadImg2 from "../../img/roadmap/tour_tempo.png";
-import tabHeadImg3 from "../../img/roadmap/tour_street.png";
+import tabHeadImg1 from "../../../img/roadmap/tour_everyday.png";
+import tabHeadImg2 from "../../../img/roadmap/tour_tempo.png";
+import tabHeadImg3 from "../../../img/roadmap/tour_street.png";
 
 const index = ({ activeTab, data }) => {
   return (
