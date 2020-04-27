@@ -7,12 +7,13 @@
 .video_container--web-only {
     margin-bottom: -1rem;
     object-fit: fill;
+    max-width: 1080px;
 }
 
-.video_container--mobile-only {
+/* .video_container--mobile-only {
     margin-bottom: -1rem;
     object-fit: fill;
-}
+} */
 
 @media screen and (min-width: 768px) {
     .top_logo img {
@@ -30,7 +31,7 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     .video_container--mobile-only {
         display: none;
     }
@@ -40,4 +41,4 @@
     .video_container--web-only {
         display: none;
     }
-}
+} */
